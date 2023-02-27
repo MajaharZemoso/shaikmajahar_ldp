@@ -5,7 +5,7 @@ Develop an algorithm to match candidates to the locations based on their prefere
 
 # Understandings from the question
 
-"""We need to map candidates to the locations based on their preferences and their location preferences
+"""We need to map candidates to the locations based on their location preferences
 For these i can use hash functions where the key is the location and the value is the candidates who prefer it"""
 
 # Algorithm will follow like below
