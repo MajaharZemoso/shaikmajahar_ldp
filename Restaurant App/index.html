@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zemoso Restaurant App</title>
+    <link rel="stylesheet" href="./css/style.css">    
+</head>
+<body onload="pageLoad()">
+    <div id="tables">
+        <div id="table_top">
+            <h3>Tables</h3>
+            <input type="search" id="table_search_bar" oninput="searchTable()" placeholder="Search Table">
+        </div>
+        <div id="table-container">
+            <div id="table_list">
+                <div>
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div id="menu_top">
+            <h3>Menu</h3>
+            <input type="search" id="menu_search_bar" oninput="searchMenu()" placeholder="Search menu... by course by food">
+        </div>
+        <div id="menu_list">
+            <div>
+
+
+            </div>
+        </div>
+    </div>    
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-close">
+                <button onclick="closeModal()" id="button-clsoe">X</button>
+            </div>
+            <div id="modal-table-name"></div>
+            <div>
+                <table id="table-info-items">
+
+
+                </table>
+
+                <div id="modal-footer">
+
+                </div>
+                
+                <div id="generate-bill">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javaScript/script.js"></script>
+
+</body>
+</html>
